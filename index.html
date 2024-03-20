@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jana Albader, A Computer Scientist">
+    <meta http-equiv="X-UA-Compotible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> jana | personal Portfolio</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+        <div class="background">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+         </div>
+
+
+    <div class="background">
+    </div>
+	
+	<div class="hamburger" onclick="toggleMenu()">
+  <span></span>
+  <span></span>
+  <span></span>
+
+</div>
+
+    <div id="header">
+        <div class="container">
+            <img src="images/logo.png" class="logo" alt="logo">
+            <nav>
+                <ul id="sidemenu" class="hide-menu"> 
+                    <div class="close-icon" onclick="toggleMenu()"></div><br><br>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            
+            </nav>
+            <div class="header-text">
+                <p><span>Welcome To My Portfolio</span></p>
+                <h1>I'm Jana Albader<br> A Computer Scientist</h1>
+                <div class="buttons">
+                    <a href="Jana Albader_CV.pdf" class="button" target="_blank">Download Resume <i class="fas fa-download"></i></a>
+                    <a href="#contact" class="button">Contact Me <i class="fas fa-arrow-right"></i></a>
+                    <a href="https://www.linkedin.com/in/jana-albader" class="button linkedin-icon" title="Visit my LinkedIn profile"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-----------about ------------------------->
+
+<div id="about">
+    <div class="container"> <br><br> 
+        <h1 class="sub-title-1">About Me</h1>
+        <div class="about-box">
+            <p>As a computer science student, I am deeply committed to achieving excellence in full-stack development and software engineering. My enthusiasm for the field is fueled by a profound passion for machine learning and artificial intelligence (AI). I am dedicated to leveraging cutting-edge technologies and methodologies to create innovative solutions that address real-world challenges.
+               <br><br> With a strong foundation in computer science principles and programming languages, I am continuously expanding my knowledge and skills to stay abreast of the latest advancements in the industry. I have a keen interest in exploring the transformative potential of AI and its applications across various domains.</p>
+        </div>
+    </div>
+</div>
+
+
+<!----------------------------- skilss  --------------->
+<section id="skill">
+    <h1 class="sub-title-1">Technical <samp>Skills</samp> & Tools</h1>
+<div class="container1">
+    <div class="slider-wrapper">
+        <ul class="button-list">
+            <li><button class="skill-button"><i class="fas fa-database"></i> Database Management</button></li>
+<li><button class="skill-button"><i class="fas fa-project-diagram"></i> Data Structuring </button></li>
+<li><button class="skill-button"><i class="fab fa-windows"></i> Operating Systems </button></li>
+<li><button class="skill-button"><i class="fas fa-code"></i> Software  Development</button></li>
+<li><button class="skill-button"><i class="fas fa-chart-line"></i> Algorithm</button></li>
+<li><button class="skill-button"><i class="fas fa-network-wired"></i> Networking</button></li>
+<li><button class="skill-button"><i class="fas fa-paint-brush"></i> Web Development</button></li>
+<li><button class="skill-button"><i class="fas fa-file-alt"></i> Microsoft Office</button></li>
+<li><button class="skill-button"><i class="fab fa-python"></i> Python</button></li>
+<li><button class="skill-button"><i class="fab fa-cuttlefish"></i> C++</button></li>
+<li><button class="skill-button"><i class="fab fa-java"></i> Java</button></li>
+<li><button class="skill-button"><i class="fab fa-js-square"></i> JavaScript</button></li>
+<li><button class="skill-button"><i class="fab fa-html5"></i> HTML5</button></li>
+<li><button class="skill-button"><i class="fab fa-php"></i> PHP</button></li>
+<li><button class="skill-button"><i class="fab fa-css3-alt"></i> CSS</button></li>
+<li><button class="skill-button"><i class="fas fa-terminal"></i> Bash</button></li>
+<li><button class="skill-button"><i class="fas fa-database"></i> MySQL</button></li>
+<li><button class="skill-button"><i class="fas fa-calculator"></i> MATLAB</button></li>
+
+        </ul>
+        </div>
+</div>      
+</section>
+
+<section id="skill2">
+    <h1 class="sub-title-1">Soft <samp>Skills</samp> </h1>
+<div class="container2">
+    <div class="slider-wrapper2">
+        <ul class="button-list2">
+            <li><button class="skill-button2"><i class="fas fa-chart-pie"></i> Decision Making</button></li>
+<li><button class="skill-button2"><i class="fas fa-comments"></i> Communication</button></li>
+<li><button class="skill-button2"><i class="fas fa-chess"></i> Problem-Solving</button></li>
+<li><button class="skill-button2"><i class="fas fa-users"></i> Teamwork</button></li>
+<li><button class="skill-button2"><i class="fas fa-users-cog"></i> Leadership</button></li>
+<li><button class="skill-button2"><i class="fas fa-clock"></i> Time Management</button></li>
+<li><button class="skill-button2"><i class="fas fa-file-alt"></i> Technical Writing</button></li>
+<li><button class="skill-button2"><i class="fas fa-lightbulb"></i> Creativity</button></li>
+<li><button class="skill-button2"><i class="fas fa-book-reader"></i> Eagerness to Learn</button></li>
+
+        </ul>
+        </div>
+</div>         
+</section>
+
+<!-----------------------------Academic projects --------------->
+<div id="projects">
+    <section id="additional-projects">
+    <h1 class="sub-title-2">My Projects</h1>
+    <div class="containerx">
+      <div class="card" onclick="toggleDescription(this)">
+            <div class="face face1">
+                <div class="contentx">
+                   
+                    <i class="fas fa-film"></i>
+                    <p class="project-title">Filmax</p>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="contentx">
+                 
+                    <p>Filmax is a comprehensive cinema booking system developed using MySQL and C++. Leveraging Graphical User Interfaces (GUI),
+                         the system offers a seamless and user-friendly experience for both cinema administrators and moviegoers. 
+                         Features: User registration/login, payment options, responsive UI. 
+                         <a href="Filmax.pdf" class="see-more" target="_blank">See more about the Filmax project <i class="fas fa-share"></i></a></p>
+                        </div>
+            </div>
+        </div>
+
+        <div class="card" onclick="toggleDescription(this)">
+            <div class="face face1">
+                <div class="contentx">
+                    <!-- Project 2 Icon -->
+                    <i class="fas fa-plane"></i>
+                    <p class="project-title">Quality and Safety</p>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="contentx">
+                    <!-- Project 2 Description -->
+                    <p>The Quality and Safety Airline Company System is a robust software solution developed using Java to ensure the 
+                        highest standards of quality and safety in airline operations. This comprehensive system encompasses various modules and
+                         functionalities aimed at enhancing operational efficiency, compliance, and passenger safety.
+                         <a href="Quality and Safety.pdf" class="see-more" target="_blank" >See more about the Quality and Safety project <i class="fas fa-share"></i></a></p>
+                        </div>
+            </div>
+        </div>
+</section>
+
+<section id="additional-projects">
+        <div class="containerx">
+        <div class="card" onclick="toggleDescription(this)">
+            <div class="face face1">
+                <div class="contentx">
+                    <!-- New Project 1 Icon -->
+                    <i class="fas fa-brain"></i>
+                    <p class="project-title">NABIH</p>
+                </div>
+            </div>
+            <div class="face face2" >
+                <div class="contentx">
+                    <!-- New Project 1 Description -->
+                    <p>The project focuses on enhancing e-learning for individuals with ADHD through computational techniques, 
+                        aiming to create a personalized application. By leveraging AI algorithms, the app identifies users' predominant learning 
+                        styles—auditory, visual, or kinesthetic—and generates tailored training plans accordingly. Developed using Figma. 
+                        <a href="NABIH.pdf" class="see-more" target="_blank">See more about the NABIH project <i class="fas fa-share"></i></a></p>        </div>
+            </div>
+        </div>
+
+        <div class="card " onclick="toggleDescription(this)" >
+            <div class="face face1">
+                <div class="contentx">
+                    <!-- New Project 2 Icon -->
+                    <i class="fas fa-book"></i>
+                    <p class="project-title">Novel Nook </p>
+                </div>
+            </div>
+            <div class="face face2" >
+                <div class="contentx">
+                    <!-- New Project 2 Description -->
+                    <p>E-library provides a convenient and accessible way to browse and buy books from various genres. 
+                        Through a user-friendly interface, visitors can explore the library's catalog, view book details,
+                         and proceed with secure payment methods. The implementation of HTML, JavaScript, and CSS ensures a responsive 
+                         and interactive browsing experience.
+                         <a href="Novel Nook.pdf" class="see-more" target="_blank" >See more about the Novel Nook project <i class="fas fa-share"></i></a></p>        </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+
+<!-------------------contact----------------->
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-all">
+                <h1 class="sub-title-1">Contact Me</h1>
+                <p>Contact me directly at <a href="mailto:jana.ab.albader.com">jana.ab.albader@gmail.com</a> or through this form</p>
+                <br>
+                <form name="submit-to-google-sheet" >
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn-submit">Submit <i class="fas fa-paper-plane"></i></button>
+                    <div class="scroll-to-top">
+                        <a href="#top" aria-label="Scroll to top">
+                          <i class="fas fa-arrow-up" ></i>
+                        </a>
+                      </div>
+                      <div id="msg"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>© 2024 Jana Albader. All rights reserved.</footer>
+</div>
+
+
+<script src="https://kit.fontawesome.com/943fa15438.js" crossorigin="anonymous"></script>
+<script src="j.js">defer</script>
+
+
+
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwNbye2AhYNguixlT2At8lo7cXrR1Go8l-flrER0hOqL-NBTSayZqFnG8ORJBwyei6a7w/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    }, 5000)
+               form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+    })
+</script>
+<script>
+// Check screen size and adjust menu visibility
+function adjustMenuForScreenSize() {
+    const screenWidth = window.innerWidth;
+    const menu = document.getElementById("sidemenu");
+    if (screenWidth > 800) {
+        // Ensure the menu is visible on larger screens
+        menu.classList.remove("hide-menu");
+        menu.classList.add("show-menu");
+    } else {
+        // On smaller screens, let the toggleMenu function control visibility
+        menu.classList.remove("show-menu");
+        menu.classList.add("hide-menu");
+    }
+}
+
+// Adjust menu on page load and window resize
+document.addEventListener("DOMContentLoaded", adjustMenuForScreenSize);
+window.addEventListener('resize', adjustMenuForScreenSize);
+
+
+
+
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+</div>
+</body>
+</html>
+
